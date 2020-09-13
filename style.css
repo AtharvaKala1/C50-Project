@@ -1,0 +1,48 @@
+body{
+    background-image: url(back.jpg);
+  }
+  h1{
+    color: white;
+  }
+  .p{
+    background-image: url(back2.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Gotham Rounded;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+  }
+  img{
+      border: 2px solid black;
+      margin: 50px;
+      padding: 15px 30px;
+      border-radius: 20px;
+      border-width: 5px;
+      padding:20px;
+      box-shadow: 0 0 10px 5px;
+  }
+  .header{
+    background-image: url(back2.jpg);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .site-description{
+      display: flex;
+      flex-direction: column;
+      justify-content: first baseline;
+  }
+  .grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
